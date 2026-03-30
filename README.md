@@ -54,7 +54,7 @@ LinearSVC and Logistic Regression outperform tree-based models on this high-dime
 - `notebooks/` - main analysis notebook
 - `data/` - raw sequence data (not tracked, see note below) and descriptor tables
 - `results/`
-  - `submission_final.csv` - final test set predictions
+  - `final.csv` - final test set predictions
 
 > **Note on data:** `train_X.csv`, `train_y.csv`, `test_X.csv`, and `y_sample_submission.csv` are not tracked due to size. The descriptor CSVs in `data/descriptors/` are tracked and required to reproduce results.
 
