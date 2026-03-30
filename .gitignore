@@ -1,0 +1,22 @@
+# Raw sequence data -- too large to track
+data/train_X.csv
+data/train_y.csv
+data/test_X.csv
+data/y_sample_submission.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Intermediate submissions
+results/submission_svm.csv
